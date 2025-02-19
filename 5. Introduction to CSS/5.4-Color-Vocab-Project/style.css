@@ -1,0 +1,28 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+#Color-Red {
+    color: red;
+}
+
+#Color-Blue {
+    color: blue;
+}
+
+#Color-Orange {
+    color: orange;
+}
+
+#Color-Green {
+    color: green;
+}
+
+#Color-Yellow {
+    color: yellow;
+}
+
+.Color {
+    font-weight: normal;
+}
