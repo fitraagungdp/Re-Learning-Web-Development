@@ -1,0 +1,20 @@
+#outer-box {
+  background-color: purple;
+}
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+.box p {
+  color: yellow;
+}
+
+.inner-box {
+  background-color: red;
+}
+
+.inner-box p {
+  color: whitesmoke;
+}
