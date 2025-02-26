@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .gridmagic {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 200px 200px;
+            gap: 30px;
+        }
+
+        .first {
+            grid-column: span 3;
+        }
+
+        .box {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="gridmagic">
+        <div class="first box">
+
+        </div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div>
+
+</body>
+
+</html>
