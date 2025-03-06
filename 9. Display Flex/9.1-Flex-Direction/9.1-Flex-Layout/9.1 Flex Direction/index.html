@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flex Direction</title>
+  <title>Flex Layout</title>
   <!-- HINT:
   https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors
   https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators 
@@ -13,8 +13,12 @@
     .container {
       color: white;
       border: 5px solid gold;
+      height: 700px;
       display: inline-flex;
-      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+      align-content: stretch;
     }
 
     /*
@@ -22,37 +26,42 @@ Select all the elements that are the direct
 children of the .container class.
     */
 
-    div {
-      flex-basis: 100px;
-
-    }
-
     .red {
       background-color: #eb4d4b;
+      width: 500px;
+      order: 10;
     }
 
     .orange {
       background-color: #f0932b;
+      width: 500px;
+      order: 5;
     }
 
     .yellow {
       background-color: #f6e58d;
+      width: 500px;
     }
 
     .green {
       background-color: #6ab04c;
+      width: 500px;
     }
 
     .blue {
       background-color: #4834d4;
+      width: 500px;
     }
 
     .indigo {
       background-color: #30336b;
+      width: 500px;
     }
 
     .purple {
       background-color: #be2edd;
+      width: 500px;
+      align-self: flex-end;
     }
   </style>
 </head>
