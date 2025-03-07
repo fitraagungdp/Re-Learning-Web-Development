@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px;
+            border: 5px solid green;
+        }
+
+        div {
+            border: 5px solid blueviolet;
+
+        }
+
+        .one {
+            flex-basis: 200px;
+            flex-grow: 0;
+            flex-shrink: 0;
+
+        }
+
+        .two {
+            flex-basis: 200px;
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+
+        .three {
+            flex-basis: 100px;
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+
+        .four {
+            flex-basis: 400px;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="one">
+            <p>Home</p>
+        </div>
+        <div class="two">
+            <p>About</p>
+        </div>
+        <div class="three">
+            <p>Contact Us</p>
+        </div>
+        <div class="four">
+            <p>The Best Programming School in the Worlds</p>
+        </div>
+    </div>
+</body>
+
+</html>
