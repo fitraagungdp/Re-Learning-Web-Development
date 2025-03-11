@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto 400px minmax(200px, 500px);
+            grid-template-rows: 1fr 1fr 2fr;
+            grid-auto-rows: 500px;
+        }
+
+        .grid-item {
+            background-color: blueviolet;
+            border: 5px solid gold;
+            color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container" id="container">
+        <div class="grid-item">width expands to fill space</div>
+        <div class="grid-item">400px wide</div>
+        <div class="grid-item">min 200px max 500px wide</div>
+        <div class="grid-item">width expands to fill space</div>
+        <div class="grid-item">400px wide</div>
+        <div class="grid-item">min 200px max 500px wide</div>
+        <div class="grid-item">width expands to fill space</div>
+        <div class="grid-item">400px wide</div>
+        <div class="grid-item">min 200px max 500px wide</div>
+        <div class="grid-item">50px high</div>
+    </div>
+
+</body>
+
+</html>
